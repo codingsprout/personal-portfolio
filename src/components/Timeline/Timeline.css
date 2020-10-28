@@ -1,0 +1,57 @@
+/* Litter with !important */
+/* Safety overwrite */
+
+.timeline {
+  padding: 0 !important;
+}
+
+/* Header */
+
+.timeline .timeline__header {
+  padding-top: 7px;
+}
+
+.timeline .timeline__itemOne {
+  min-height: 80px !important;
+}
+
+.timeline .MuiTimelineItem-root {
+  min-height: 0px;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.timeline .timeline__headerDot {
+  color: #000;
+  background-color: var(--mainColor);
+  font-size: small;
+  padding: 10px !important;
+}
+
+/* ...remaining stuff */
+
+.timeline .timeline__dot {
+  color: #000;
+  border-color: var(--mainColor);
+  padding: 2px !important;
+}
+
+.timeline .MuiTimelineConnector-root {
+  background-color: #eee;
+}
+
+.timeline .timeline__headerDot > .MuiSvgIcon-root {
+  font-size: 20px;
+  color: #301934;
+}
+
+.timeline .timeline__separator {
+  padding-left: 18px;
+}
+
+.timeline .timeline__content {
+  padding-top: 0px !important;
+  margin-bottom: 20px;
+}
