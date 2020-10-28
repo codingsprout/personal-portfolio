@@ -1,0 +1,22 @@
+.profile {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.profile__name {
+  line-height: 18px;
+  padding: 20px;
+}
+
+.profile__name .profile__title {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.profile__name .profile__subtitle {
+  font-size: 13px;
+  color: #777;
+}
