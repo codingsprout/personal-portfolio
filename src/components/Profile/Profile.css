@@ -30,3 +30,38 @@
 .profile__image img {
   width: 100%;
 }
+
+/* Information section */
+
+.profile__information {
+  top: 0;
+  left: 0;
+  margin: -40px 10px 30px;
+}
+
+.profile__information .timeline .timeline__content {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.timeline__text {
+  font-size: 13.5px !important;
+  color: #787878;
+  font-weight: 400 !important;
+}
+
+.timeline__text > span {
+  color: #000;
+}
+
+.timeline__text > a {
+  color: #e30b5d;
+  text-decoration: none;
+}
+
+.profile .button__container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}

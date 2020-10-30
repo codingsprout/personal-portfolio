@@ -1,0 +1,71 @@
+/* tabs */
+
+.custom__tabs .active {
+  color: var(--mainColor) !important;
+}
+
+.custom__tabsItem {
+  padding: 0px !important;
+  min-width: 0px !important;
+  margin-right: 20px !important;
+  text-transform: inherit !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  outline-width: 0px !important;
+}
+
+/* cards */
+
+.custom__card {
+  height: 100%;
+  max-width: 350px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+  border-radius: 5px;
+  overflow: hidden;
+  outline-width: 0px !important;
+}
+
+.custom__cardImage {
+  height: 140px;
+}
+
+.custom__cardTitle {
+  font-weight: 600 !important;
+}
+
+.custom__cardCaption {
+  color: #808080 !important;
+  font-weight: 300;
+}
+
+/* dialog */
+
+.projectDialog__image {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.projectDialog__description {
+  margin-top: 10px !important;
+}
+
+.projectDialog__actions {
+  justify-content: center !important;
+  margin-bottom: 10px;
+}
+
+.projectDialog__icon {
+  color: #2f4f4f;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+
+.projectDialog__icon:hover {
+  color: var(--mainColor);
+}
+
+.projectDialog__icon > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
